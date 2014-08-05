@@ -21,6 +21,7 @@
 		A21675D9198A1E8400FD6EAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21675BB198A1E8400FD6EAA /* UIKit.framework */; };
 		A21675E1198A1E8400FD6EAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A21675DF198A1E8400FD6EAA /* InfoPlist.strings */; };
 		A21675E3198A1E8400FD6EAA /* YearPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A21675E2198A1E8400FD6EAA /* YearPickerTests.m */; };
+		A21675EE198A1EF200FD6EAA /* YearPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A21675ED198A1EF200FD6EAA /* YearPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A21675DE198A1E8400FD6EAA /* YearPickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YearPickerTests-Info.plist"; sourceTree = "<group>"; };
 		A21675E0198A1E8400FD6EAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A21675E2198A1E8400FD6EAA /* YearPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YearPickerTests.m; sourceTree = "<group>"; };
+		A21675EC198A1EF200FD6EAA /* YearPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YearPickerView.h; sourceTree = "<group>"; };
+		A21675ED198A1EF200FD6EAA /* YearPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YearPickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		A21675BD198A1E8400FD6EAA /* YearPicker */ = {
 			isa = PBXGroup;
 			children = (
+				A21675EC198A1EF200FD6EAA /* YearPickerView.h */,
+				A21675ED198A1EF200FD6EAA /* YearPickerView.m */,
 				A21675C6198A1E8400FD6EAA /* AppDelegate.h */,
 				A21675C7198A1E8400FD6EAA /* AppDelegate.m */,
 				A21675C9198A1E8400FD6EAA /* Main.storyboard */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A21675CE198A1E8400FD6EAA /* ViewController.m in Sources */,
+				A21675EE198A1EF200FD6EAA /* YearPickerView.m in Sources */,
 				A21675C8198A1E8400FD6EAA /* AppDelegate.m in Sources */,
 				A21675C4198A1E8400FD6EAA /* main.m in Sources */,
 			);
